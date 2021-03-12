@@ -1,0 +1,43 @@
+/* CSS for the fish game */
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18pt;
+    font-family: 'DotGothic16', Courier, monospace;
+}
+
+#player {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+#sky {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    left: 0;
+    background-color: skyblue;
+}
+
+#sea {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 75px;
+    left: 0;
+    background-color: aquamarine;
+}
+
+#seabed {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 10%;
+    background-color: bisque;
+}
